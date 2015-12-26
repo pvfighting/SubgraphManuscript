@@ -1,0 +1,155 @@
+\documentclass[9pt,oneside]{article}
+% \usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{newalg}
+            % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ...
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{epstopdf}
+\usepackage{amsthm}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{tikz}
+\usepackage[latin1]{inputenc}
+\usetikzlibrary{shapes,arrows}
+\makeatletter
+\newcommand{\figcaption}{\def\@captype{figure}\caption}
+\newcommand{\tabcaption}{\def\@captype{table}\caption}
+\makeatother
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\renewcommand{\thesection}{\arabic{section}}
+\newtheorem{thm}{Theorem}
+\newtheorem{defi}{Definition}
+\newtheorem{cor}{Corollary}
+%\title{\LARGE \bf A simple report about last week }
+%\author{The Author}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+%\title{\LARGE \bf A simple report about last week }
+\title{\LARGE \bf Mining frequent subgraphs in a large and sparse biological graph}
+
+\date{Mar 19, 2011}
+\author{Jiajie Peng, Jin Chen\\
+{ \small E-mail: pengjj@msu.edu }  \\
+        {\small Plant Research  Lab,}\\
+        {\small Michigan State University,
+       East Lansing, MI 48823, USA }\\
+        }
+\maketitle
+\Large
+\section{Introduction}
+
+{\it Introduce the challenges to mine frequent subgraphs in a given large and sparse graph. And it's needs in biological graph mining applications. Introduce the basic idea of our algorithm, which is to partition the whole graph to size-k graphs and then efficiently build a level graph to find the relationships among these graphs to save the computational time in the subsequent frequent subgraph mining. The key to the success is how to efficiently build a level graph.}\\\\
+
+In recent years, there has been an increased interest in graph mining. One of the most important problems in graph mining is frequent subgraph detection.
+%
+%Applications of graph mining, such as graph classification\cite{fei2008structure, jin2009graph} and graph search\cite{zhou2004structured}, are helpful in understanding complex structures.
+%graph classification and graph similarity.
+%
+Frequent subgraphs are essential composite features for numerous graph mining applications, such as graph
+classification\cite{fei2008structure, jin2009graph} and graph search\cite{zhou2004structured}.
+%
+Frequent subgraphs are also the key components of the network motif discovery
+algorithms\cite{JinChen2006,milo2002network,Kavosh,wernicke2006fanmod, kashtan2004efficient,grochow2007network, alon2008biomolecular}.
+
+There are two distinct categories in frequent subgraph detection that referred to as the graph-data setting and the single-graph setting. In the graph-data setting, the input of a subgraph mining algorithm is a set of relatively small graphs. In the single-graph setting the input data is a single large graph. The difference affects the way the frequency of the various subgraphs is determined. For the graph-data setting, the frequency of a subgraph is determined by the number of graphs that the subgraph occurs in, irrespective of how many times a subgraph occurs in a particular graph, whereas in the single-graph setting, the frequency of a subgraph is based on the number of its occurrences, which also varies with different definitions of frequency graph. %
+
+ In this paper, we focus on frequent subgraph detection in a unlabeled undirected sparse graph. Compared to the research on mining frequent subgraph from graph-data setting, single-graph based algorithms problem have not been thoroughly studied\cite{chen2007gapprox}. Note that due to the inherent differences of the features of the underlying dataset and the problem formulation, algorithms developed for the graph-data setting\cite{inokuchi2000apriori, FSG,huan2003efficient,gScan2002,ZhaonianZou2010} cannot be used to solve the single-graph setting\cite{kuramochi2005finding,zou2010frequent}.
+%One is to find frequent subgraphs in
+%a set of graphs. Many works been done on frequent subgraph detection focus on set of
+%graphs\cite{inokuchi2000apriori, FSG,huan2003efficient,gScan2002,ZhaonianZou2010}. The other is to
+%find frequent subgraphs in a single graph\cite{kuramochi2005finding,zou2010frequent,holder1994substructure}.
+%
+
+%
+
+With the booming of the biotechnology, many large and sparse biological and medical graphs have been reconstructed\cite{zhou2005functional,ma2007edinburgh,guelzim2002topological}. For example, a high-quality human metabolic network was manually reconstructed by metabolic reaction information from literature and integrating genome annotation information from different databases\cite{ma2007edinburgh}. Different to the real graphs in other fields, biological and medical graphs have their own unique properties. In such a graph, each node represents a unique biological entity such as a gene, a protein or
+a compound.
+%Each node also has its own functional labels.
+The edge connecting two nodes represents the biological relation between two entities. One typical example is a gene co-expression graph\cite{stuart2003gene}, which each node represents a gene, and an edge connecting two nodes explicitly represents the significant co-expression relationship between two genes. %
+ It explains exactly the co-expression relationship of the sets of genes, which is constructed by connecting pairs of genes which have a similar expression trend across samples. The co-expressed genes rise and fall together across samples, since they are controlled by transcriptional regulatory program, member of the same pathway or functional related protein complex\cite{weirauch2011gene}.
+ %For example, a regulatory network was reconstructed through cross-platform integration of microarray data\cite{zhou2005functional}. Although people study a lot on complex biological graphs, little is known about how these graphs behave and function under different conditions.
+
+ To understand how these graphs behave and function under different conditions, biologists usually start from the study of subgraphs, which refer to certain common functional structures, i.e., frequent subgraphs. With a frequent subgraph detection method, people can discover the connection between the graph topology and the biological functions.
+ %To discover the connection between the graph topology and the biological functions, we focus on mining frequent subgraphs within a sparse and large graph. These graphs, such as gene regulatory networks, are usually labeled and directed.
+%
+%A typical labeled and directed network is .
+
+%In addition to graph classification, graph search and graph data analysis could
+%benefit from frequent subgraphs\cite{fei2008structure,jin2009graph,zhou2004structured,deshpande2005frequent}.
+%
+%been obtained in a variety of areas, such as bioinformatics, security, the web, and social graphs. To detect frequent subgraphs is one of the best way to understand the graph datas. Specifically, we can discover function pattern in protein protein graph and regulatry graph by frequent subgraph detection.  But as we know that this two problems both contain two main steps, candidate generation and frequency counting.\\
+%
+
+To detect frequent subgraphs in a biological graph is, however, a computationally challenging task. First, a biological graph is  large and sparse. It usually has {\it tens of thousands of} nodes and each node has multiple functional labels. It is therefore computationally expensive to detect the occurrences of any given labeled subgraph.
+%---------3.10.1027
+Second, given that it is common for biological entities and their interactions in complex biological graphs to participate in multiple biological functional modules, multiple biological entities or edges overlap subgraphs may be active at any time\cite{JinChen2006}. Hence, the downward closure of subgraph frequency, which is used to efficiently decrease the problem search search space\cite{kuramochi2005finding},
+does not hold, which means we cannot detect frequent subgraphs from frequent subgraphs with less number of nodes(details in background section).
+%
+Third, the frequency counting procedure involves graph isomorphism testing\cite{fortin1996} and subgraph isomorphism testing \cite{ullmann1976algorithm}. It is known that latter one is an NP-complete problem \cite{Bruno2000,Johnson1979} and former one is a special problem neither known to be solvable in polynomial time nor NP-complete\cite{Johnson1979}.
+%
+
+This paper proposed an efficient algorithm to detect frequent subgraphs in a unlabeled undirected large sparse biological graph while allowing occurrences of the subgraphs to be arbitrarily overlapping. The main process of our algorithm is  to partition the whole graph to size-k subgraphs and then efficiently group the subgraphs to % decrease the computational times of isomorphism testing to 
+save the computational time in the subsequent frequent subgraph mining, where k is a user defined subgraph size. The key of the whole algorithm is how to efficiently decrease the times of graph isomorphism testing.
+
+%\begin{table}[ht] \caption{Graph Categories} % title of Table
+%\centering
+% used for centering table
+% \begin{tabular}{ccccc} % centered columns (4 columns)
+ %\hline\hline %inserts double horizontal lines
+% Algorithm& node labeled & edge directed &  node overlap & edge overlap  \\ [0.5ex] % inserts table %heading
+% \hline % inserts single horizontal line
+% H/VSIGRAM & $\ast$ &  &$\ast$ &  \\ % inserting body of the table
+ %gApprox & $\ast$ &  &  &  \\
+% ZOU$\star$ & $\ast$ &  & $\ast$ & \\
+%NeMoFinder &  & & $\ast$&$\ast$ \\
+%FANMOD$\star$ &  & & $\ast$ &$\ast$\\
+%Our algrithm & $\ast$ & $\ast$ & $\ast$&$\ast$\\ [1ex]
+ %\hline %inserts single line
+% \end{tabular} \label{table.gc}
+ %\\$\star$ sampling algorithm.
+% \end{table}
+
+The main contributions of this paper are as follows.
+First, [XXXXXXXXXXXXXXX]\\
+
+ %
+% {\bf Scope of application.} We proposed an efficient algorithm to find frequent subgraphs in large sparse unlabeled undirected graph. There is no existing algorithm can deal with this problem, as table 1 described. To the best of our knowledge, our algorithms is the first one applicable for labeled directed single graph and allows arbitrary edge and node overlap between different subgraph occurrences. And our algorithm calculate size-k frequent subgraphs directly without calculating the smaller frequent subgraphs.
+  %
+
+ %{\bf Graph Partitioning.} A novel method was used to partition a large graph into small subgraphs.
+
+ %{\bf Level Graph.} We proposed a new concept called ``level graph" to significantly save the time of subgraph isomorphism testing. First, we partition a large graph into size-k small graphs. Then each size-k graph is treated as a node in level graph,$LG(V_{LG},E_{LG})$. In $LG$ the edge connecting node $v$ to node $w$ means $v$ is a subgraph of $w$. Given that the cost to construct a complete $LG$ is expansive, an approximate $LG$ is built in our algorithm. To check whether a size-k subgraph $g$ is frequent, we add it to $LG$. If it is a subgraph of a node, it must be subgraph of all the reachable nodes in $LG$. We could obtain the up-bound and low-bound of frequency of subgraph $g$. Therefore, it is unnecessary to calculate the frequency of $g$ if its up-bound is smaller than the given threshold or its low-bound is larger than the given threshold. In addition, we proposed an efficient method to construct the level graph. In the method, degree sequence is used to determine non-subgraph isomorphism. Degree sequence could efficiently avoid unnecessary subgraph isomorphism testing. We also used active learning method to generate approximate level graph.  %In a level graph, our algorithm is the first algorithm that use level graph to decrease the cost and construct the level graph by active learning, which is narrow down the computational scale.
+
+ %{\bf Degree sequence.} Our algorithm takes advantage of degree sequence to determine non-subgraph isomorphism. Degree sequence is efficient to avoid some unnecessary subgraph isomorphism testing.
+
+ %{\bf Active learning.} We use active learning method to generate level graph. Because of the time complexity, we do not build a complete level graph. Using active learning method, we generate a level graph which is not complete but enough to obtain frequent subgraphs.
+
+
+ %{\bf Direct calculation.} our algorithm calculate size-k frequent subgraphs directly without calculating the smaller frequent subgraphs.%%need data here
+
+This paper is organized as follows. In section 2 we provide background for frequent subgraph detection and necessary definitions. Section 3 describes our method in detail. Section 4 shows some experiments and performance, which compared with XXX and XXX. Section 5 summarizes our work and shows some future work.
+
+
+%To solve these two problem are challenging. Recently, a number of research focus on finding frequent subgraphs from a set of graphs, in which nodes and edges are labeled,e.g.,[\cite{huan2003efficient},  \cite{gScan2002}, \cite{kuramochi2001frequent},  \cite{XifengYan2008} ]. There are also some studies for the finding frequent subgraphs in a large graph,e.g.,[\cite{holder1994substructure},\cite{kuramochi2005finding}, \cite{vanetik2002computing}, \cite{li2009directed} ],\cite{zou2010frequent}.
+
+ %\cite{huan2003efficient} propose a novel frequent subgraph mining algorithm: FFSM, which reduce the number of redundant candidates proposed and avoid subgraph isomorphism test. \cite{gScan2002} builds a  new canonical labels to represent the graph. Based on this, gSpan adopts the depth-first search strategy
+%to mine frequent connected subgraphs efficiently.\cite{kuramochi2001frequent} use join method to generate the candidate and then do subgraph isomorphism test. But the efficiency is not good. The paper \cite{XifengYan2008} give the first comprehensive study on general mining method aiming to nd most significant patterns directly. These algorithms are used to finding frequent graphs from dataset of graphs. Because we can find the frequent edges and nodes firstly. This is a efficient way to narrow down the search space for these Apriori-based approach or growth-based approaches.
+
+%On the other hand, there are also some studis for finding frequent subgraphs in a large graph. SUBDUE\cite{holder1994substructure} is one of the most well-known algotithm for finding frequent subgraphs in a large graph.\cite{kuramochi2005finding}  presents two algorithms, based on the horizontal and vertical pattern discovery paradigms, that find the connected subgraphs that have a sufficient number of edge disjoint embeddings in a single large undirected labeled sparse graph.  One of the important definitions is different concepts for determination of pattern frequency. For different definition of frequency, different methods can be used to calculate the frequency. For node-disjoin and edge-disjoin, the subgraphs satisfy downward closure property. In this condition, frequent subgraphs can be found from a small size to a large size. And pruning method is used to narrow down the search space. But for allowing arbitrary overlaps of nodes and edges, downward closure property is not hold. It is not efficient to extend from small size to large size. In our project, we choose the concept of allowing overlaps of nodes and edges as well as node non-identical.
+
+%In this paper, we develop FSD(Frequent subgraph Detection) which aims to reduce the costs mentioned above. we firstly partition the whole graph to size-k graphs and then efficiently build a level graph to find relationships among these graphs to save the computational time in the subsequentfrequent subgraph mining. The key to  the success is how to efficiently build a level graph.Two main techniques are degree sequence and active learning, which can decrease the time complexity efficiently. To the best of our knowledge, FSD is the first algorithm that use level graph to decrease the cost and construct the level graph by active learning. And FSD can calculate size-k frequent subgraphs directly without calculation the size-n frequent subgraphs(n is from 3 to k-1). }
+\bibliographystyle{unsrt} %the style type could decide the display and order of the reference
+
+
+\bibliography{myrefer}
+%\end{thebibliography}
+\end{document}

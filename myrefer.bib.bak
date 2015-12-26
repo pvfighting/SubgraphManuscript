@@ -1,0 +1,715 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: GBK
+
+@ARTICLE{agrawal2011plant,
+  author = {Agrawal, Ganesh Kumar and Bourguignon, Jacques and Rolland, Norbert
+	and Ephritikhine, Genevi{\`e}ve and Ferro, Myriam and Jaquinod, Michel
+	and Alexiou, Konstantinos G and Chardot, Thierry and Chakraborty,
+	Niranjan and Jolivet, Pascale and others},
+  title = {Plant organelle proteomics: collaborating for optimal cell function},
+  journal = {Mass spectrometry reviews},
+  year = {2011},
+  volume = {30},
+  pages = {772--853},
+  number = {5},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{alon2008biomolecular,
+  author = {Alon, N. and Dao, P. and Hajirasouliha, I. and Hormozdiari, F. and
+	Sahinalp, S.C.},
+  title = {{Biomolecular network motif counting and discovery by color coding}},
+  journal = {Bioinformatics},
+  year = {2008},
+  volume = {24},
+  pages = {i241},
+  number = {13},
+  issn = {1367-4803},
+  publisher = {Oxford Univ Press}
+}
+
+@ARTICLE{barabasi2004network,
+  author = {Barab{\'a}si, A.L. and Oltvai, Z.N.},
+  title = {{Network biology: understanding the cell's functional organization}},
+  journal = {Nature Reviews Genetics},
+  year = {2004},
+  volume = {5},
+  pages = {101--113},
+  number = {2},
+  issn = {1471-0056},
+  publisher = {Nature Publishing Group}
+}
+
+@ARTICLE{barabasi2004network,
+  author = {Barabasi, Albert-Laszlo and Oltvai, Zoltan N},
+  title = {Network biology: understanding the cell's functional organization},
+  journal = {Nature reviews genetics},
+  year = {2004},
+  volume = {5},
+  pages = {101--113},
+  number = {2},
+  publisher = {Nature Publishing Group}
+}
+
+@ARTICLE{bayati2013message,
+  author = {Bayati, Mohsen and Gleich, David F and Saberi, Amin and Wang, Ying},
+  title = {Message-passing algorithms for sparse network alignment},
+  journal = {ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  year = {2013},
+  volume = {7},
+  pages = {3},
+  number = {1},
+  publisher = {ACM}
+}
+
+@ARTICLE{chakrabarti2006graph,
+  author = {Chakrabarti, D. and Faloutsos, C.},
+  title = {{Graph mining: Laws, generators, and algorithms}},
+  journal = {ACM Computing Surveys (CSUR)},
+  year = {2006},
+  volume = {38},
+  pages = {2},
+  number = {1},
+  issn = {0360-0300},
+  publisher = {ACM}
+}
+
+@CONFERENCE{chen2007gapprox,
+  author = {Chen, C. and Yan, X. and Zhu, F. and Han, J.},
+  title = {{gapprox: Mining frequent approximate patterns from a massive network}},
+  booktitle = {icdm},
+  year = {2007},
+  pages = {445--450},
+  organization = {IEEE Computer Society},
+  issn = {1550-4786}
+}
+
+@UNPUBLISHED{FuncV4,
+  author = {Jin Chen},
+  title = {Functional Module Discovery, Framework, Problems and Plans},
+  note = {The part of BibTeX's documentation that's not meant for general users},
+  month = jan,
+  year = {2009}
+}
+
+@ARTICLE{JinChen2006,
+  author = {Jin Chen and Wynne Hsu and Mong Li Lee et al.},
+  title = {NeMoFinder: dissecting genome wide protein protein interactions with
+	meso scale network motifs},
+  journal = {SIGKDD},
+  year = {2006},
+  pages = {106-115}
+}
+
+@CONFERENCE{chen2007labeling,
+  author = {Chen, J. and Hsu, W. and Lee, M.L. and Ng, S.K.},
+  title = {{Labeling network motifs in protein interactomes for protein function
+	prediction}},
+  booktitle = {Data Engineering, 2007. ICDE 2007. IEEE 23rd International Conference
+	on},
+  year = {2007},
+  pages = {546--555},
+  organization = {IEEE},
+  isbn = {1424408032}
+}
+
+@INPROCEEDINGS{chen2006nemofinder,
+  author = {Chen, Jin and Hsu, Wynne and Lee, Mong Li and Ng, See-Kiong},
+  title = {NeMoFinder: Dissecting genome-wide protein-protein interactions with
+	meso-scale network motifs},
+  booktitle = {Proceedings of the 12th ACM SIGKDD international conference on Knowledge
+	discovery and data mining},
+  year = {2006},
+  pages = {106--115},
+  organization = {ACM}
+}
+
+@ARTICLE{coatney2005motifminer,
+  author = {Coatney, M. and Parthasarathy, S.},
+  title = {{MotifMiner: efficient discovery of common substructures in biochemical
+	molecules}},
+  journal = {Knowledge and Information Systems},
+  year = {2005},
+  volume = {7},
+  pages = {202--223},
+  number = {2},
+  issn = {0219-1377},
+  publisher = {Springer}
+}
+
+@ARTICLE{Cook1971,
+  author = {Cook, S. A},
+  title = {The complexity of theorem-proving procedures},
+  journal = {Proc. 3rd ACM Symposium on Theory of Computing},
+  year = {1971},
+  pages = { 151-158}
+}
+
+@ARTICLE{davidson2005gene,
+  author = {Davidson, E. and Levin, M.},
+  title = {{Gene regulatory networks}},
+  journal = {Proceedings of the National Academy of Sciences of the United States
+	of America},
+  year = {2005},
+  volume = {102},
+  pages = {4935},
+  number = {14},
+  publisher = {National Acad Sciences}
+}
+
+@ARTICLE{deshpande2005frequent,
+  author = {Deshpande, M. and Kuramochi, M. and Wale, N. and Karypis, G.},
+  title = {{Frequent substructure-based approaches for classifying chemical
+	compounds}},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  year = {2005},
+  pages = {1036--1050},
+  issn = {1041-4347},
+  publisher = {Published by the IEEE Computer Society}
+}
+
+@CONFERENCE{fei2008structure,
+  author = {Fei, H. and Huan, J.},
+  title = {{Structure feature selection for graph classification}},
+  booktitle = {Proceeding of the 17th ACM conference on Information and knowledge
+	management},
+  year = {2008},
+  pages = {991--1000},
+  organization = {ACM}
+}
+
+@ARTICLE{fortin1996,
+  author = {Fortin, S.},
+  title = {{The graph isomorphism problem}},
+  journal = {Department of Computing Science, University of Alberta},
+  year = {1996},
+  file = {:C\:\\Work Space\\papers\\Biologocal_Network_Topological_Study_Papers\\(canonical matrix)The Graph Isomorphism Problem.pdf:PDF},
+  publisher = {Citeseer}
+}
+
+@ARTICLE{Johnson1979,
+  author = {M.R. Garey and D.S. Johnson},
+  title = {Computers and Intractability: A Guide to the Theory of NP Completeness},
+  journal = {Freeman},
+  year = {1979},
+  pages = { }
+}
+
+@CONFERENCE{grochow2007network,
+  author = {Grochow, J. and Kellis, M.},
+  title = {{Network motif discovery using subgraph enumeration and symmetry-breaking}},
+  booktitle = {Research in Computational Molecular Biology},
+  year = {2007},
+  pages = {92--106},
+  organization = {Springer}
+}
+
+@ARTICLE{guelzim2002topological,
+  author = {Guelzim, N. and Bottani, S. and Bourgine, P. and K{\'e}p{\`e}s, F.},
+  title = {{Topological and causal structure of the yeast transcriptional regulatory
+	network}},
+  journal = {Nature genetics},
+  year = {2002},
+  volume = {31},
+  pages = {60--63},
+  number = {1},
+  publisher = {Nature Publishing Group}
+}
+
+@ARTICLE{gScan2002,
+  author = {Xifeng Yan Jiawei Han},
+  title = {gSpan: Graph-Based Substructure Pattern Mining},
+  journal = {ICDM},
+  year = {2002},
+  pages = {633-642}
+}
+
+@CONFERENCE{holder1994substructure,
+  author = {Holder, L.B. and Cook, D.J. and Djoko, S.},
+  title = {{Substructure discovery in the subdue system}},
+  booktitle = {Proc. of the AAAI Workshop on Knowledge Discovery in Databases},
+  year = {1994},
+  pages = {169--180}
+}
+
+@ARTICLE{huan2003efficient,
+  author = {Huan, J. and Wang, W. and Prins, J.},
+  title = {{Efficient mining of frequent subgraphs in the presence of isomorphism}},
+  year = {2003},
+  publisher = {Published by the IEEE Computer Society}
+}
+
+@ARTICLE{inokuchi2000apriori,
+  author = {Inokuchi, A. and Washio, T. and Motoda, H.},
+  title = {{An apriori-based algorithm for mining frequent substructures from
+	graph data}},
+  journal = {Principles of Data Mining and Knowledge Discovery},
+  year = {2000},
+  pages = {13--23},
+  publisher = {Springer}
+}
+
+@ARTICLE{jayakumar2002complexity,
+  author = {Jayakumar, R. and Thulasiraman, K. and Swamy, M.},
+  title = {{Complexity of computation of a spanning tree enumeration algorithm}},
+  journal = {Circuits and Systems, IEEE Transactions on},
+  year = {2002},
+  volume = {31},
+  pages = {853--860},
+  number = {10},
+  issn = {0098-4094},
+  publisher = {IEEE}
+}
+
+@CONFERENCE{jin2009graph,
+  author = {Jin, N. and Young, C. and Wang, W.},
+  title = {{Graph classification based on pattern co-occurrence}},
+  booktitle = {Proceeding of the 18th ACM conference on Information and knowledge
+	management},
+  year = {2009},
+  pages = {573--582},
+  organization = {ACM}
+}
+
+@ARTICLE{kashani2009kavosh,
+  author = {Kashani, Zahra RM and Ahrabian, Hayedeh and Elahi, Elahe and Nowzari-Dalini,
+	Abbas and Ansari, Elnaz S and Asadi, Sahar and Mohammadi, Shahin
+	and Schreiber, Falk and Masoudi-Nejad, Ali},
+  title = {Kavosh: a new algorithm for finding network motifs},
+  journal = {BMC bioinformatics},
+  year = {2009},
+  volume = {10},
+  pages = {318},
+  number = {1},
+  publisher = {BioMed Central Ltd}
+}
+
+@ARTICLE{Kavosh,
+  author = {Zahra Razaghi Moghadam Kashani and Hayedeh Ahrabian and Elahe Elahi
+	et al.},
+  title = { Kavosh: a new algorithm for finding network motifs},
+  journal = {BMC Bioinformatics},
+  year = {2009},
+  volume = {10},
+  pages = {318}
+}
+
+@ARTICLE{kashtan2004efficient,
+  author = {Kashtan, Nadav and Itzkovitz, Shalev and Milo, Ron and Alon, Uri},
+  title = {Efficient sampling algorithm for estimating subgraph concentrations
+	and detecting network motifs},
+  journal = {Bioinformatics},
+  year = {2004},
+  volume = {20},
+  pages = {1746--1758},
+  number = {11},
+  publisher = {Oxford Univ Press}
+}
+
+@ARTICLE{kashtan2004efficient,
+  author = {Kashtan, N. and Itzkovitz, S. and Milo, R. and Alon, U.},
+  title = {{Efficient sampling algorithm for estimating subgraph concentrations
+	and detecting network motifs}},
+  journal = {Bioinformatics},
+  year = {2004},
+  volume = {20},
+  pages = {1746},
+  number = {11},
+  issn = {1367-4803},
+  publisher = {Oxford Univ Press}
+}
+
+@ARTICLE{kuramochi2005finding,
+  author = {Kuramochi, M. and Karypis, G.},
+  title = {{Finding frequent patterns in a large sparse graph*}},
+  journal = {Data mining and knowledge discovery},
+  year = {2005},
+  volume = {11},
+  pages = {243--271},
+  number = {3},
+  issn = {1384-5810},
+  publisher = {Springer}
+}
+
+@CONFERENCE{FSG,
+  author = {Kuramochi, M. and Karypis, G.},
+  title = {{Frequent subgraph discovery}},
+  booktitle = {icdm},
+  year = {2001},
+  pages = {313},
+  organization = {Published by the IEEE Computer Society},
+  file = {:C\:\\Work Space\\papers\\Biologocal_Network_Topological_Study_Papers\\FSG Frequent subgraph discovery.pdf:PDF}
+}
+
+@CONFERENCE{kuramochi2001frequent,
+  author = {Kuramochi, M. and Karypis, G.},
+  title = {{Frequent subgraph discovery}},
+  booktitle = {icdm},
+  year = {2001},
+  pages = {313},
+  organization = {Published by the IEEE Computer Society}
+}
+
+@ARTICLE{laughlin2003communication,
+  author = {Laughlin, Simon B and Sejnowski, Terrence J},
+  title = {Communication in neuronal networks},
+  journal = {Science},
+  year = {2003},
+  volume = {301},
+  pages = {1870--1874},
+  number = {5641},
+  publisher = {American Association for the Advancement of Science}
+}
+
+@CONFERENCE{li2009directed,
+  author = {Li, Y. and Lin, Q. and Zhong, G. and Duan, D. and Jin, Y. and Bi,
+	W.},
+  title = {{A Directed Labeled Graph Frequent Pattern Mining Algorithm Based
+	on Minimum Code}},
+  booktitle = {Multimedia and Ubiquitous Engineering, 2009. MUE'09. Third International
+	Conference on},
+  year = {2009},
+  pages = {353--359},
+  organization = {IEEE}
+}
+
+@ARTICLE{ma2007edinburgh,
+  author = {Ma, H. and Sorokin, A. and Mazein, A. and Selkov, A. and Selkov,
+	E. and Demin, O. and Goryanin, I.},
+  title = {{The Edinburgh human metabolic network reconstruction and its functional
+	analysis}},
+  journal = {Molecular systems biology},
+  year = {2007},
+  volume = {3},
+  number = {1},
+  publisher = {Nature Publishing Group}
+}
+
+@ARTICLE{mangan2003structure,
+  author = {Mangan, Shmoolik and Alon, Uri},
+  title = {Structure and function of the feed-forward loop network motif},
+  journal = {Proceedings of the National Academy of Sciences},
+  year = {2003},
+  volume = {100},
+  pages = {11980--11985},
+  number = {21},
+  publisher = {National Acad Sciences}
+}
+
+@BOOK{mckay1981practical,
+  title = {{Practical graph isomorphism}},
+  publisher = {Citeseer},
+  year = {1981},
+  author = {McKay, B.D. and Vanderbilt University. Dept. of Computer Science}
+}
+
+@ARTICLE{Bruno2000,
+  author = {Bruno T. Messmer and Horst Bunke},
+  title = {Efficient Subgraph Isomorphism Detection: A Decomposition Approach},
+  journal = {TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING},
+  year = {2000},
+  volume = {12},
+  pages = { 307-324}
+}
+
+@ARTICLE{milo2002network,
+  author = {Milo, R. and Shen-Orr, S. and Itzkovitz, S. and Kashtan, N. and Chklovskii,
+	D. and Alon, U.},
+  title = {{Network motifs: simple building blocks of complex networks}},
+  journal = {Science},
+  year = {2002},
+  volume = {298},
+  pages = {824},
+  number = {5594},
+  publisher = {AAAS}
+}
+
+@INCOLLECTION{natu2011mining,
+  author = {Natu, Maitreya and Sadaphal, Vaishali and Patil, Sangameshwar and
+	Mehrotra, Ankit},
+  title = {Mining frequent subgraphs to extract communication patterns in data-centres},
+  booktitle = {Distributed Computing and Networking},
+  publisher = {Springer},
+  year = {2011},
+  pages = {239--250}
+}
+
+@ARTICLE{onnela2007structure,
+  author = {Onnela, J-P and Saram{\"a}ki, Jari and Hyv{\"o}nen, Jorkki and Szab{\'o},
+	Gy{\"o}rgy and Lazer, David and Kaski, Kimmo and Kert{\'e}sz, J{\'a}nos
+	and Barab{\'a}si, A-L},
+  title = {Structure and tie strengths in mobile communication networks},
+  journal = {Proceedings of the National Academy of Sciences},
+  year = {2007},
+  volume = {104},
+  pages = {7332--7336},
+  number = {18},
+  publisher = {National Acad Sciences}
+}
+
+@ARTICLE{Agrawal1994,
+  author = {R. Agrawal, R. Srikant.},
+  title = {Fast Algorithms for Mining Association Rules},
+  journal = {VLDB},
+  year = {1994},
+  pages = {487-499}
+}
+
+@ARTICLE{schreiber2005mavisto,
+  author = {Schreiber, Falk and Schw{\"o}bbermeyer, Henning},
+  title = {MAVisto: a tool for the exploration of network motifs},
+  journal = {Bioinformatics},
+  year = {2005},
+  volume = {21},
+  pages = {3572--3574},
+  number = {17},
+  publisher = {Oxford Univ Press}
+}
+
+@ARTICLE{schwikowski2000network,
+  author = {Schwikowski, B. and Uetz, P. and Fields, S.},
+  title = {{A network of protein--protein interactions in yeast}},
+  journal = {Nature Biotechnology},
+  year = {2000},
+  volume = {18},
+  pages = {1257--1261},
+  number = {12},
+  issn = {1087-0156},
+  publisher = {Nature Publishing Group}
+}
+
+@ARTICLE{song2010interplant,
+  author = {Song, Yuan Yuan and Zeng, Ren Sen and Xu, Jian Feng and Li, Jun and
+	Shen, Xiang and Yihdego, Woldemariam Gebrehiwot},
+  title = {Interplant communication of tomato plants through underground common
+	mycorrhizal networks},
+  journal = {PLoS One},
+  year = {2010},
+  volume = {5},
+  pages = {e13324},
+  number = {10},
+  publisher = {Public Library of Science}
+}
+
+@ARTICLE{stuart2003gene,
+  author = {Stuart, Joshua M and Segal, Eran and Koller, Daphne and Kim, Stuart
+	K},
+  title = {A gene-coexpression network for global discovery of conserved genetic
+	modules},
+  journal = {science},
+  year = {2003},
+  volume = {302},
+  pages = {249--255},
+  number = {5643},
+  publisher = {American Association for the Advancement of Science}
+}
+
+@ARTICLE{ullmann1976algorithm,
+  author = {Ullmann, JR},
+  title = {{An algorithm for subgraph isomorphism}},
+  journal = {Journal of the ACM (JACM)},
+  year = {1976},
+  volume = {23},
+  pages = {42},
+  number = {1},
+  issn = {0004-5411},
+  publisher = {ACM}
+}
+
+@ARTICLE{vanetik2002computing,
+  author = {Vanetik, N. and Gudes, E. and Shimony, SE},
+  title = {{Computing frequent graph patterns from semistructured data}},
+  year = {2002},
+  publisher = {Published by the IEEE Computer Society}
+}
+
+@ARTICLE{vespignani2009predicting,
+  author = {Vespignani, Alessandro and others},
+  title = {Predicting the behavior of techno-social systems},
+  journal = {Science},
+  year = {2009},
+  volume = {325},
+  pages = {425},
+  number = {5939},
+  publisher = {Citeseer}
+}
+
+@ARTICLE{voevodski2009finding,
+  author = {Voevodski, Konstantin and Teng, Shang-Hua and Xia, Yu},
+  title = {Finding local communities in protein networks},
+  journal = {BMC bioinformatics},
+  year = {2009},
+  volume = {10},
+  pages = {297},
+  number = {1},
+  publisher = {BioMed Central Ltd}
+}
+
+@ARTICLE{weirauch2011gene,
+  author = {Weirauch, Matthew T},
+  title = {Gene coexpression networks for the analysis of DNA microarray data},
+  journal = {Applied statistics for network biology: methods in systems biology},
+  year = {2011},
+  pages = {215--250},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{wernicke2006fanmod,
+  author = {Wernicke, S. and Rasche, F.},
+  title = {{FANMOD: a tool for fast network motif detection}},
+  journal = {Bioinformatics},
+  year = {2006},
+  volume = {22},
+  pages = {1152},
+  number = {9},
+  issn = {1367-4803},
+  publisher = {Oxford Univ Press}
+}
+
+@ARTICLE{wernicke2006fanmod,
+  author = {Wernicke, Sebastian and Rasche, Florian},
+  title = {FANMOD: a tool for fast network motif detection},
+  journal = {Bioinformatics},
+  year = {2006},
+  volume = {22},
+  pages = {1152--1153},
+  number = {9},
+  publisher = {Oxford Univ Press}
+}
+
+@ARTICLE{wong2012biological,
+  author = {Wong, Elisabeth and Baur, Brittany and Quader, Saad and Huang, Chun-Hsi},
+  title = {Biological network motif detection: principles and practice},
+  journal = {Briefings in bioinformatics},
+  year = {2012},
+  volume = {13},
+  pages = {202--215},
+  number = {2},
+  publisher = {Oxford Univ Press}
+}
+
+@ARTICLE{wong2012biological,
+  author = {Wong, Elisabeth and Baur, Brittany and Quader, Saad and Huang, Chun-Hsi},
+  title = {Biological network motif detection: principles and practice},
+  journal = {Briefings in bioinformatics},
+  year = {2012},
+  volume = {13},
+  pages = {202--215},
+  number = {2},
+  publisher = {Oxford Univ Press}
+}
+
+@ARTICLE{XifengYan2008,
+  author = {Xifeng Yan Hong Cheng, Jiawei Han Philip S. Yu},
+  title = {Mining Significant Graph Patterns by Leap Search},
+  journal = {SIGMOD},
+  year = {2008},
+  pages = {433-444}
+}
+
+@ARTICLE{yao2008modeling,
+  author = {Yao, J. and Adler, I. and Oren, S.S.},
+  title = {{Modeling and computing two-settlement oligopolistic equilibrium
+	in a congested electricity network}},
+  journal = {OPERATIONS RESEARCH-BALTIMORE THEN LINTHICUM-},
+  year = {2008},
+  volume = {56},
+  pages = {34},
+  number = {1},
+  issn = {0030-364X},
+  publisher = {Citeseer}
+}
+
+@ARTICLE{zhao2008fast,
+  author = {Zhao, P. and Yu, J.X.},
+  title = {{Fast frequent free tree mining in graph databases}},
+  journal = {World Wide Web},
+  year = {2008},
+  volume = {11},
+  pages = {71--92},
+  number = {1},
+  issn = {1386-145X},
+  publisher = {Springer}
+}
+
+@ARTICLE{ZhaonianZou2010,
+  author = {Zhaonian Zou, Hong Gao, Jianzhong Li},
+  title = {Discovering Frequent Subgraphs over Uncertain Graph Databases under
+	Probabilistic Semantics},
+  journal = {ICDM},
+  year = {2010},
+  pages = {706-715}
+}
+
+@ARTICLE{ZhannianZouCliques,
+  author = {Zhaonian Zou, Jianzhong Li, Hong Gao, and Shuo Zhang},
+  title = {Finding Top-k Maximal Cliques in an Uncertain Graph},
+  journal = {ICDE},
+  year = {2010},
+  pages = { 649-652}
+}
+
+@ARTICLE{Zou2010Jou,
+  author = {Zhaonian Zou, Jianzhong Li, Hong Gao, and Shuo Zhang},
+  title = {Mining Frequent Subgraph Patterns from uncertain graph data},
+  journal = {TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING},
+  year = {2010},
+  volume = {22},
+  pages = { 1203-1218}
+}
+
+@ARTICLE{ZhaonianZou2009,
+  author = {Zhaonian Zou, Jianzhong Li, Hong Gao, and Shuo Zhang},
+  title = { Mining Frequent Subgraph Patterns from Uncertain Graph Data},
+  journal = {CIKM},
+  year = {2009},
+  pages = {583-592}
+}
+
+@CONFERENCE{zhou2004structured,
+  author = {Zhou, R. and Hansen, E.A.},
+  title = {{Structured duplicate detection in external-memory graph search}},
+  booktitle = {Proceedings of the National Conference on Artificial Intelligence},
+  year = {2004},
+  pages = {683--689},
+  organization = {Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999}
+}
+
+@ARTICLE{zhou2005functional,
+  author = {Zhou, X.J. and Kao, M.C.J. and Huang, H. and Wong, A. and Nunez-Iglesias,
+	J. and Primig, M. and Aparicio, O.M. and Finch, C.E. and Morgan,
+	T.E. and Wong, W.H.},
+  title = {{Functional annotation and network reconstruction through cross-platform
+	integration of microarray data}},
+  journal = {Nature Biotechnology},
+  year = {2005},
+  volume = {23},
+  pages = {238--243},
+  number = {2},
+  issn = {1087-0156},
+  publisher = {Nature Publishing Group}
+}
+
+@ARTICLE{Zhu07miningcolossal,
+  author = {Feida Zhu and Xifeng Yan and Jiawei Han and Philip S. Yu and Hong
+	Cheng},
+  title = {Mining colossal frequent patterns by core pattern fusion},
+  journal = {ICDE},
+  year = {2007},
+  pages = {706-715}
+}
+
+@CONFERENCE{zou2010frequent,
+  author = {Zou, R. and Holder, L.B.},
+  title = {Frequent subgraph mining on a single large graph using sampling techniques},
+  booktitle = {Proceedings of the Eighth Workshop on Mining and Learning with Graphs},
+  year = {2010},
+  pages = {171--178},
+  organization = {ACM}
+}
+
+@ARTICLE{,
+  owner = {Jiajie},
+  timestamp = {2015.11.22}
+}
+

@@ -1,0 +1,215 @@
+\begin{thebibliography}{10}
+
+\bibitem{onnela2007structure}
+J-P Onnela, Jari Saram{\"a}ki, Jorkki Hyv{\"o}nen, Gy{\"o}rgy Szab{\'o}, David
+  Lazer, Kimmo Kaski, J{\'a}nos Kert{\'e}sz, and A-L Barab{\'a}si.
+\newblock Structure and tie strengths in mobile communication networks.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  104(18):7332--7336, 2007.
+
+\bibitem{natu2011mining}
+Maitreya Natu, Vaishali Sadaphal, Sangameshwar Patil, and Ankit Mehrotra.
+\newblock Mining frequent subgraphs to extract communication patterns in
+  data-centres.
+\newblock In {\em Distributed Computing and Networking}, pages 239--250.
+  Springer, 2011.
+
+\bibitem{vespignani2009predicting}
+Alessandro Vespignani et~al.
+\newblock Predicting the behavior of techno-social systems.
+\newblock {\em Science}, 325(5939):425, 2009.
+
+\bibitem{laughlin2003communication}
+Simon~B Laughlin and Terrence~J Sejnowski.
+\newblock Communication in neuronal networks.
+\newblock {\em Science}, 301(5641):1870--1874, 2003.
+
+\bibitem{song2010interplant}
+Yuan~Yuan Song, Ren~Sen Zeng, Jian~Feng Xu, Jun Li, Xiang Shen, and
+  Woldemariam~Gebrehiwot Yihdego.
+\newblock Interplant communication of tomato plants through underground common
+  mycorrhizal networks.
+\newblock {\em PLoS One}, 5(10):e13324, 2010.
+
+\bibitem{voevodski2009finding}
+Konstantin Voevodski, Shang-Hua Teng, and Yu~Xia.
+\newblock Finding local communities in protein networks.
+\newblock {\em BMC bioinformatics}, 10(1):297, 2009.
+
+\bibitem{agrawal2011plant}
+Ganesh~Kumar Agrawal, Jacques Bourguignon, Norbert Rolland, Genevi{\`e}ve
+  Ephritikhine, Myriam Ferro, Michel Jaquinod, Konstantinos~G Alexiou, Thierry
+  Chardot, Niranjan Chakraborty, Pascale Jolivet, et~al.
+\newblock Plant organelle proteomics: collaborating for optimal cell function.
+\newblock {\em Mass spectrometry reviews}, 30(5):772--853, 2011.
+
+\bibitem{barabasi2004network}
+A.L. Barab{\'a}si and Z.N. Oltvai.
+\newblock {Network biology: understanding the cell's functional organization}.
+\newblock {\em Nature Reviews Genetics}, 5(2):101--113, 2004.
+
+\bibitem{wong2012biological}
+Elisabeth Wong, Brittany Baur, Saad Quader, and Chun-Hsi Huang.
+\newblock Biological network motif detection: principles and practice.
+\newblock {\em Briefings in bioinformatics}, 13(2):202--215, 2012.
+
+\bibitem{bayati2013message}
+Mohsen Bayati, David~F Gleich, Amin Saberi, and Ying Wang.
+\newblock Message-passing algorithms for sparse network alignment.
+\newblock {\em ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  7(1):3, 2013.
+
+\bibitem{JinChen2006}
+Jin Chen, Wynne Hsu, and Mong Li~Lee et~al.
+\newblock Nemofinder: dissecting genome wide protein protein interactions with
+  meso scale network motifs.
+\newblock {\em SIGKDD}, pages 106--115, 2006.
+
+\bibitem{kuramochi2005finding}
+M.~Kuramochi and G.~Karypis.
+\newblock {Finding frequent patterns in a large sparse graph*}.
+\newblock {\em Data mining and knowledge discovery}, 11(3):243--271, 2005.
+
+\bibitem{fortin1996}
+S.~Fortin.
+\newblock {The graph isomorphism problem}.
+\newblock {\em Department of Computing Science, University of Alberta}, 1996.
+
+\bibitem{ullmann1976algorithm}
+JR~Ullmann.
+\newblock {An algorithm for subgraph isomorphism}.
+\newblock {\em Journal of the ACM (JACM)}, 23(1):42, 1976.
+
+\bibitem{Bruno2000}
+Bruno~T. Messmer and Horst Bunke.
+\newblock Efficient subgraph isomorphism detection: A decomposition approach.
+\newblock {\em TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING}, 12:307--324,
+  2000.
+
+\bibitem{Johnson1979}
+M.R. Garey and D.S. Johnson.
+\newblock Computers and intractability: A guide to the theory of np
+  completeness.
+\newblock {\em Freeman}, 1979.
+
+\bibitem{fei2008structure}
+H.~Fei and J.~Huan.
+\newblock {Structure feature selection for graph classification}.
+\newblock In {\em Proceeding of the 17th ACM conference on Information and
+  knowledge management}, pages 991--1000. ACM, 2008.
+
+\bibitem{jin2009graph}
+N.~Jin, C.~Young, and W.~Wang.
+\newblock {Graph classification based on pattern co-occurrence}.
+\newblock In {\em Proceeding of the 18th ACM conference on Information and
+  knowledge management}, pages 573--582. ACM, 2009.
+
+\bibitem{zhou2004structured}
+R.~Zhou and E.A. Hansen.
+\newblock {Structured duplicate detection in external-memory graph search}.
+\newblock In {\em Proceedings of the National Conference on Artificial
+  Intelligence}, pages 683--689. Menlo Park, CA; Cambridge, MA; London; AAAI
+  Press; MIT Press; 1999, 2004.
+
+\bibitem{milo2002network}
+R.~Milo, S.~Shen-Orr, S.~Itzkovitz, N.~Kashtan, D.~Chklovskii, and U.~Alon.
+\newblock {Network motifs: simple building blocks of complex networks}.
+\newblock {\em Science}, 298(5594):824, 2002.
+
+\bibitem{kashani2009kavosh}
+Zahra~RM Kashani, Hayedeh Ahrabian, Elahe Elahi, Abbas Nowzari-Dalini, Elnaz~S
+  Ansari, Sahar Asadi, Shahin Mohammadi, Falk Schreiber, and Ali Masoudi-Nejad.
+\newblock Kavosh: a new algorithm for finding network motifs.
+\newblock {\em BMC bioinformatics}, 10(1):318, 2009.
+
+\bibitem{wernicke2006fanmod}
+S.~Wernicke and F.~Rasche.
+\newblock {FANMOD: a tool for fast network motif detection}.
+\newblock {\em Bioinformatics}, 22(9):1152, 2006.
+
+\bibitem{kashtan2004efficient}
+Nadav Kashtan, Shalev Itzkovitz, Ron Milo, and Uri Alon.
+\newblock Efficient sampling algorithm for estimating subgraph concentrations
+  and detecting network motifs.
+\newblock {\em Bioinformatics}, 20(11):1746--1758, 2004.
+
+\bibitem{grochow2007network}
+J.~Grochow and M.~Kellis.
+\newblock {Network motif discovery using subgraph enumeration and
+  symmetry-breaking}.
+\newblock In {\em Research in Computational Molecular Biology}, pages 92--106.
+  Springer, 2007.
+
+\bibitem{alon2008biomolecular}
+N.~Alon, P.~Dao, I.~Hajirasouliha, F.~Hormozdiari, and S.C. Sahinalp.
+\newblock {Biomolecular network motif counting and discovery by color coding}.
+\newblock {\em Bioinformatics}, 24(13):i241, 2008.
+
+\bibitem{chen2007gapprox}
+C.~Chen, X.~Yan, F.~Zhu, and J.~Han.
+\newblock {gapprox: Mining frequent approximate patterns from a massive
+  network}.
+\newblock In {\em icdm}, pages 445--450. IEEE Computer Society, 2007.
+
+\bibitem{inokuchi2000apriori}
+A.~Inokuchi, T.~Washio, and H.~Motoda.
+\newblock {An apriori-based algorithm for mining frequent substructures from
+  graph data}.
+\newblock {\em Principles of Data Mining and Knowledge Discovery}, pages
+  13--23, 2000.
+
+\bibitem{FSG}
+M.~Kuramochi and G.~Karypis.
+\newblock {Frequent subgraph discovery}.
+\newblock In {\em icdm}, page 313. Published by the IEEE Computer Society,
+  2001.
+
+\bibitem{huan2003efficient}
+J.~Huan, W.~Wang, and J.~Prins.
+\newblock {Efficient mining of frequent subgraphs in the presence of
+  isomorphism}.
+\newblock 2003.
+
+\bibitem{gScan2002}
+Xifeng Yan~Jiawei Han.
+\newblock gspan: Graph-based substructure pattern mining.
+\newblock {\em ICDM}, pages 633--642, 2002.
+
+\bibitem{ZhaonianZou2010}
+Jianzhong~Li Zhaonian~Zou, Hong~Gao.
+\newblock Discovering frequent subgraphs over uncertain graph databases under
+  probabilistic semantics.
+\newblock {\em ICDM}, pages 706--715, 2010.
+
+\bibitem{zou2010frequent}
+R.~Zou and L.B. Holder.
+\newblock Frequent subgraph mining on a single large graph using sampling
+  techniques.
+\newblock In {\em Proceedings of the Eighth Workshop on Mining and Learning
+  with Graphs}, pages 171--178. ACM, 2010.
+
+\bibitem{mangan2003structure}
+Shmoolik Mangan and Uri Alon.
+\newblock Structure and function of the feed-forward loop network motif.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  100(21):11980--11985, 2003.
+
+\bibitem{chen2006nemofinder}
+Jin Chen, Wynne Hsu, Mong~Li Lee, and See-Kiong Ng.
+\newblock Nemofinder: Dissecting genome-wide protein-protein interactions with
+  meso-scale network motifs.
+\newblock In {\em Proceedings of the 12th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 106--115. ACM, 2006.
+
+\bibitem{schreiber2005mavisto}
+Falk Schreiber and Henning Schw{\"o}bbermeyer.
+\newblock Mavisto: a tool for the exploration of network motifs.
+\newblock {\em Bioinformatics}, 21(17):3572--3574, 2005.
+
+\bibitem{khakabimamaghani2013quatexelero}
+Sahand Khakabimamaghani, Iman Sharafuddin, Norbert Dichter, Ina Koch, and Ali
+  Masoudi-Nejad.
+\newblock Quatexelero: an accelerated exact network motif detection algorithm.
+\newblock {\em PloS one}, 8(7):e68073, 2013.
+
+\end{thebibliography}

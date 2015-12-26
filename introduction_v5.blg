@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: introduction_v5.aux
+The style file: unsrt.bst
+Database file #1: myrefer.bib
+Repeated entry---line 43 of file myrefer.bib
+ : @article{barabasi2004network
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 299 of file myrefer.bib
+ : @article{kashtan2004efficient
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 562 of file myrefer.bib
+ : @article{wernicke2006fanmod
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in huan2003efficient
+(There were 3 error messages)
